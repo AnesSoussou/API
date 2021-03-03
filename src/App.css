@@ -2,10 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li {
+  font-size: 1.3em;
 }
+
+h1 {
+  margin-left: 20px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,7 +17,7 @@
   }
 }
 
-.App-header {
+/*.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,8 +26,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}*/
+body {
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
 }
-
 .App-link {
   color: #61dafb;
 }
